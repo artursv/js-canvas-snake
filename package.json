@@ -1,0 +1,30 @@
+{
+  "name": "js_game",
+  "version": "1.0.0",
+  "description": "Basic Snake game.",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artursv/js-canvas-snake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artursv/js-canvas-snake/issues"
+  },
+  "homepage": "https://github.com/artursv/js-canvas-snake#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
